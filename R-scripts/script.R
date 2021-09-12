@@ -133,8 +133,6 @@ corp <- tm_map(corp, toSpace, "-")
 
 ## Create wordcloud and save png ---------------------------------------------
 
-# Vamos usar a paleta de cores do Pacote RColorBrewer:: vantagem: além do tamanho, também há a discriminação por cores de acordo com a frequência das palavras
-
 color <- brewer.pal(8, "Dark2")
 # 8  = max.number of colors
 # Dark2 -- palete
